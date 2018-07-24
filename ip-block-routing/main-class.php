@@ -35,7 +35,7 @@ if ( !class_exists( 'IPBLOCK_ROUTING' ) ) {
 		}
 
 
-		function adminPanel () {
+		function admin_panel () {
 
 			require_once( IPBLOCK__PLUGIN_DIR . 'inc/admin.php' );
 		}
@@ -69,7 +69,7 @@ if ( !class_exists( 'IPBLOCK_ROUTING' ) ) {
 	}
 
 	$ipBlock = new IPBLOCK_ROUTING();
-	$ipBlock -> adminPanel();
+	$ipBlock -> admin_panel();
 
 }
 
